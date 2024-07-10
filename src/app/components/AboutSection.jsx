@@ -2,9 +2,8 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
-
-
 import aboutImage from "../../../public/images/about-image.png";
+
 const TAB_DATA = [
   {
     title: "Skills",
