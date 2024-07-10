@@ -3,13 +3,13 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
-
+import image from "../../../public/images/projects/1.png";
 const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
     description: "Project 1 description",
-    image: "/images/projects/1.png",
+    image: image,
     tag: ["All", "Web"],
     gitUrl: "https://github.com/mertdkb/dikbiyik-webapp",
     previewUrl: "https://mertdkb.github.io/dikbiyik-webapp/",
